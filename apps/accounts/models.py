@@ -5,6 +5,10 @@ from django.db import models
 class UserManager(BaseUserManager):
     use_in_migrations = True
 
+    def get_by_natural_key(self, email):
+        # вход по email без учёта регистра букв
+        return self.get(email__iexact=email)
+
     def _create_user(self, email, password, **extra_fields):
         if not email:
             raise ValueError("Email обязателен")

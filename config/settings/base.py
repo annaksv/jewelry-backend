@@ -26,7 +26,14 @@ INSTALLED_APPS = [
     "drf_spectacular",
     "django_filters",
     "corsheaders",
-    # приложения проекта добавим в части 4.4
+    # приложения проекта
+    "apps.accounts",
+    "apps.surveys",
+    "apps.routes",
+    "apps.content",
+    "apps.catalog",
+    "apps.tools",
+    "apps.projects",
 ]
 
 MIDDLEWARE = [
@@ -114,3 +121,5 @@ SPECTACULAR_SETTINGS = {
 
 # --- CORS: какие адреса frontend могут обращаться к API ---
 CORS_ALLOWED_ORIGINS = env.list("CORS_ALLOWED_ORIGINS", default=[])
+
+AUTH_USER_MODEL = "accounts.User"

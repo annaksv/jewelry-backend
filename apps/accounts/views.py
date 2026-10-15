@@ -40,3 +40,20 @@ class LoginView(TokenObtainPairView):
     """Вход по email и паролю."""
 
     serializer_class = LoginSerializer
+
+
+from drf_spectacular.utils import extend_schema  # noqa: E402
+from rest_framework.permissions import IsAuthenticated  # noqa: E402
+from rest_framework.response import Response  # noqa: E402
+from rest_framework.views import APIView  # noqa: E402
+
+from .serializers import UserSerializer  # noqa: E402
+
+
+class MeView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    @extend_schema(responses=UserSerializer)
+    def get(self, request):
+        """Данные текущего пользователя."""
+        return Response(UserSerializer(request.user).data)

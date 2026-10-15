@@ -77,6 +77,7 @@ def route_payload(route):
     """Что отдаём frontend."""
     return {
         "id": route.id,
+        "run_id": route.run_id,
         "scenario": route.scenario.slug,
         "scenario_title": route.scenario.title,
         "schema_version": route.schema_version,

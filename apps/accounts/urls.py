@@ -9,3 +9,7 @@ urlpatterns = [
     path("auth/refresh/", TokenRefreshView.as_view(), name="auth-refresh"),
     path("auth/logout/", TokenBlacklistView.as_view(), name="auth-logout"),
 ]
+
+from .views import MeView  # noqa: E402
+
+urlpatterns += [path("me/", MeView.as_view(), name="me")]

@@ -8,3 +8,7 @@ media/
 .idea/
 .DS_Store
 .pytest_cache/
+
+# Деплой
+deploy/.htpasswd
+.env.prod

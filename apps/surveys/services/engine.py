@@ -13,6 +13,7 @@ def build_context(run):
         ctx.answered.add(answer.question.code)
         if answer.value:
             ctx.values[key] = answer.value
+    ctx.skipped.update(run.skipped_questions or [])
     return ctx
 
 
@@ -24,20 +25,25 @@ def visible_questions(run, ctx=None):
 
 
 def get_next_question(run, ctx=None):
-    """Первый видимый вопрос без ответа. None, если опрос закончен."""
+    """Первый видимый вопрос без ответа и не пропущенный. None, если опрос закончен."""
     if ctx is None:
         ctx = build_context(run)
+    done = ctx.answered | ctx.skipped
     for question in visible_questions(run, ctx):
-        if question.code not in ctx.answered:
+        if question.code not in done:
             return question
     return None
 
 
-def get_progress(run, ctx=None):
+def get_progress(run, ctx=None, question=None):
     """Для надписи «ВОПРОС N ИЗ M». M может измениться по ходу ветвления."""
     if ctx is None:
         ctx = build_context(run)
     visible = visible_questions(run, ctx)
-    answered = sum(1 for q in visible if q.code in ctx.answered)
     total = len(visible)
-    return {"current": min(answered + 1, total), "total": total}
+    target = question or get_next_question(run, ctx)
+    if target is None:
+        return {"current": total, "total": total}
+    codes = [q.code for q in visible]
+    current = codes.index(target.code) + 1 if target.code in codes else 1
+    return {"current": current, "total": total}

@@ -124,3 +124,8 @@ SPECTACULAR_SETTINGS = {
 CORS_ALLOWED_ORIGINS = env.list("CORS_ALLOWED_ORIGINS", default=[])
 
 AUTH_USER_MODEL = "accounts.User"
+
+# Заголовок, в котором гость передаёт токен прохождения опроса
+from corsheaders.defaults import default_headers  # noqa: E402
+
+CORS_ALLOW_HEADERS = list(default_headers) + ["x-run-token"]

@@ -98,6 +98,7 @@ class SurveyRun(TimeStampedModel):
     anon_token_hash = models.CharField("Хэш токена гостя", max_length=64, blank=True, db_index=True)
     status = models.CharField("Статус", max_length=20, choices=Status.choices, default=Status.IN_PROGRESS)
     completed_at = models.DateTimeField("Завершено", null=True, blank=True)
+    skipped_questions = models.JSONField("Пропущенные вопросы", default=list, blank=True)
 
     class Meta:
         ordering = ["-created_at"]

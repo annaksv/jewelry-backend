@@ -16,6 +16,7 @@ class AnswerContext:
     tags: set = field(default_factory=set)       # {"obj:trademark", ...}
     answered: set = field(default_factory=set)   # коды вопросов с ответом
     values: dict = field(default_factory=dict)   # {"grid.row3": "ready"}
+    skipped: set = field(default_factory=set)    # пропущенные необязательные вопросы
 
 
 def _as_list(key, arg):

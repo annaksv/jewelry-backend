@@ -40,13 +40,17 @@ def select_rules(run, ctx=None):
     return [rule for _, rule in selected]
 
 
-def serialize_step(rule):
+def serialize_step(rule, ctx=None):
     block = rule.block
     return {
         "number": rule.step_question.step_label if rule.step_question else "",
         "title": block.title,
         "body": block.body,
-        "links": [{"label": l.label, "kind": l.kind, "target": l.target} for l in block.links.all()],
+        "links": [
+            {"label": l.label, "kind": l.kind, "target": l.target}
+            for l in block.links.all()
+            if not l.condition or (ctx is not None and evaluate(l.condition, ctx))
+        ],
     }
 
 
@@ -60,7 +64,8 @@ def get_or_build_route(run):
     if route is not None and route.source_updated_at == run.updated_at:
         return route
 
-    snapshot = {"steps": [serialize_step(rule) for rule in select_rules(run)]}
+    ctx = build_context(run)
+    snapshot = {"steps": [serialize_step(rule, ctx) for rule in select_rules(run, ctx)]}
     if route is None:
         return Route.objects.create(
             run=run, user=run.user, scenario=run.scenario, snapshot=snapshot,

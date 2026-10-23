@@ -26,7 +26,7 @@ def answer_all(run, steps):
         submit_answer(run, code, options=options)
 
 
-SERVICES_PATH = [("q1", ["none"]), ("q2", ["services"]), ("q7", ["new_only"]),
+SERVICES_PATH = [("q1", ["none"]), ("q2", ["services"]), ("q6", ["online"]), ("q7", ["new_only"]),
                  ("q8", ["own"]), ("q9", ["no"]), ("q10", ["none"])]
 
 FULL_PATH = [("q1", ["ip"]), ("q2", ["produce_sell"]), ("q3", ["self"]), ("q4", ["metal", "stone"]),
@@ -47,7 +47,7 @@ def test_services_path_route(seeded):
     run = new_run()
     answer_all(run, SERVICES_PATH)
     steps = get_or_build_route(run).snapshot["steps"]
-    assert [s["number"] for s in steps] == ["1", "2", "7", "8", "9", "10"]
+    assert [s["number"] for s in steps] == ["1", "2", "6", "7", "8", "9", "10"]
     assert steps[0]["title"] == "Зарегистрируйте бизнес"
     assert steps[0]["links"][0]["kind"] == "article"
 
@@ -106,7 +106,7 @@ def test_route_api_returns_steps(seeded):
     assert response.status_code == 200
     assert response.data["scenario"] == "open-business"
     assert response.data["is_saved"] is False
-    assert len(response.data["steps"]) == 6
+    assert len(response.data["steps"]) == 7
     assert response.data["steps"][0]["number"] == "1"
 
 

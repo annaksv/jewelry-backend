@@ -22,7 +22,8 @@ def load_route_content(scenario_slug, blocks, overwrite=False):
         if created or overwrite:
             block.links.all().delete()
             ContentBlockLink.objects.bulk_create([
-                ContentBlockLink(block=block, order=i, label=l["label"], kind=l["kind"], target=l["target"])
+                ContentBlockLink(block=block, order=i, label=l["label"], kind=l["kind"], target=l["target"],
+                                 condition=l.get("condition", {}))
                 for i, l in enumerate(data["links"], start=1)
             ])
 

@@ -9,7 +9,7 @@ from apps.surveys.models import Scenario, SurveyRun
 from apps.surveys.services.access import hash_token
 from apps.surveys.services.answers import submit_answer
 
-SERVICES_PATH = [("q1", ["none"]), ("q2", ["services"]), ("q7", ["new_only"]),
+SERVICES_PATH = [("q1", ["none"]), ("q2", ["services"]), ("q6", ["online"]), ("q7", ["new_only"]),
                  ("q8", ["own"]), ("q9", ["no"]), ("q10", ["none"])]
 
 
@@ -108,7 +108,7 @@ def test_my_routes_lists_only_own(seeded):
     assert response.status_code == 200
     ids = [item["id"] for item in response.data["results"]]
     assert ids == [str(Route.objects.get(run=run_a).id)]
-    assert response.data["results"][0]["steps_count"] == 6
+    assert response.data["results"][0]["steps_count"] == 7
 
 
 def test_saved_route_detail_only_for_owner(seeded):
@@ -121,7 +121,7 @@ def test_saved_route_detail_only_for_owner(seeded):
     assert ok.status_code == 200
     assert ok.data["run_id"] == str(run.id)
     assert ok.data["is_saved"] is True
-    assert len(ok.data["steps"]) == 6
+    assert len(ok.data["steps"]) == 7
     assert client_for(b).get(f"/api/v1/routes/{route.id}/").status_code == 404
 
 

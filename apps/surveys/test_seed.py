@@ -36,8 +36,8 @@ def test_all_show_if_conditions_are_valid(seeded):
         evaluate(question.show_if, AnswerContext())  # не должно падать с ConditionError
 
 
-def test_services_path_skips_production_and_sales(run):
-    walk(run, [("q1", ["none"]), ("q2", ["services"]), ("q7", ["new_only"]),
+def test_services_path_skips_production_but_asks_about_sales(run):
+    walk(run, [("q1", ["none"]), ("q2", ["services"]), ("q6", ["online"]), ("q7", ["new_only"]),
                ("q8", ["own"]), ("q9", ["no"]), ("q10", ["none"])])
     assert get_next_question(run) is None
     run.refresh_from_db()

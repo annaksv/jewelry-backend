@@ -42,6 +42,7 @@ class ContentBlockLink(TimeStampedModel):
         TOOL = "tool", "Инструмент сайта"
         CATALOG = "catalog", "Каталог поставщиков"
         EXTERNAL = "external", "Внешний сайт"
+        SCENARIO = "scenario", "Другой опрос"
 
     block = models.ForeignKey(ContentBlock, on_delete=models.CASCADE, related_name="links", verbose_name="Блок")
     order = models.PositiveIntegerField("Порядок", default=0)
@@ -50,6 +51,10 @@ class ContentBlockLink(TimeStampedModel):
     target = models.CharField("Цель", max_length=300, blank=True,
                               help_text="Статья: её код (slug). Инструмент: okved-check. "
                                         "Каталог: metals, stones или all. Внешний сайт: адрес.")
+
+    condition = models.JSONField("Условие показа", default=dict, blank=True,
+                                 help_text="Пусто = ссылка показывается всегда. Иначе только при таких ответах "
+                                           "(формат тот же, что у условий правил маршрута)")
 
     class Meta:
         ordering = ["order", "id"]

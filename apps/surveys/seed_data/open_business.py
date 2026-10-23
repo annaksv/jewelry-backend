@@ -48,7 +48,7 @@ SCENARIO = {
             opt("services", "Оказывать ювелирные услуги", "activity:services"),
         ], ONE),
 
-        question("q3", "3", "Кто будет производить изделия?", "single", [
+        question("q3", "3", "Кто будет заниматься изготовлением изделий?", "single", [
             opt("self", "Я / мое ЮЛ", "mfr:self"),
             opt("contractor_ru", "Сторонний производитель в России", "mfr:contractor_ru"),
             opt("foreign", "Производитель за рубежом", "mfr:foreign"),
@@ -58,7 +58,7 @@ SCENARIO = {
         question("q4", "4", "С какими изделиями вы будете работать?", "multi", [
             opt("metal", "Из драгоценных металлов", "material:metal"),
             opt("stone", "С драгоценными камнями", "material:stone"),
-            opt("metal_stone", "И с металлами, и с камнями", "material:metal", "material:stone", exclusive=True),
+            opt("metal_stone", "И с драгоценными металлами, и с драгоценными камнями", "material:metal", "material:stone", exclusive=True),
             opt("bijou", "Только бижутерия и недрагоценные материалы", "material:bijou", exclusive=True),
         ], MANY, show_if={"not": {"option": "q2.services"}}),
 
@@ -74,7 +74,8 @@ SCENARIO = {
             opt("online", "Через сайт или социальные сети", "sale:online"),
             opt("marketplace", "Через маркетплейсы", "sale:marketplace"),
             opt("wholesale", "Оптом другим компаниям", "sale:wholesale"),
-        ], MANY, show_if={"any": [{"option": "q2.sell"}, {"option": "q2.produce_sell"}]}),
+        ], MANY, show_if={"any": [{"option": "q2.sell"}, {"option": "q2.produce_sell"},
+                                  {"option": "q2.services"}]}),
 
         question("q7", "7", "Будете ли вы работать с изделиями клиентов или бывшими в употреблении изделиями?",
                  "single", [
@@ -106,7 +107,7 @@ SCENARIO = {
 
         question("q10", "10", "Есть ли у вас помещение для работы?", "single", [
             opt("yes", "Да", "premises:yes"),
-            opt("no", "Нет", "premises:no"),
+            opt("no", "Нет, но планируется", "premises:no"),
             opt("none", "Отдельное помещение не планируется", "premises:none"),
         ], ONE),
     ],

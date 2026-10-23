@@ -24,7 +24,7 @@ def walk(run, steps):
 
 def test_seed_loads_design_scenario(run):
     scenario = run.scenario
-    assert scenario.is_published
+    assert not scenario.is_published
     assert scenario.questions.count() == 12
     assert AnswerOption.objects.filter(question__scenario=scenario).count() == 48
 

@@ -54,7 +54,7 @@ SCENARIO = {
     "card_title": "Готовый дизайн",
     "card_subtitle": "Хочу реализовать свой дизайн украшения",
     "order": 1,
-    "is_published": True,
+    "is_published": False,  # скрыт: сценарий переделывается по правкам кураторов
     "questions": [
         question("q1", "1", "Что вы хотите сделать сейчас?", "single", [
             opt("protect", "Защитить права на созданный дизайн", "goal:protect"),

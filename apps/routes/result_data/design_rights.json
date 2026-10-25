@@ -1,0 +1,3171 @@
+{
+ "cards": [
+  {
+   "condition": {
+    "option": "rights.yes"
+   },
+   "card": {
+    "item": {
+     "questionId": "rights",
+     "title": "Есть ли у вас права на ваш дизайн?",
+     "stages": [
+      1
+     ],
+     "articles": [
+      "design-rights",
+      "copyright-protection"
+     ],
+     "suppliers": false
+    },
+    "fallbackText": null,
+    "links": [
+     {
+      "title": "Как закрепить права на изделие за собой?",
+      "href": "/knowledge/design-rights?from=design"
+     },
+     {
+      "title": "Что в ювелирном дизайне охраняется авторским правом?",
+      "href": "/knowledge/copyright-protection?from=design"
+     },
+     {
+      "href": "/design/stages/1#stage-content",
+      "title": "Права на дизайн"
+     }
+    ]
+   }
+  },
+  {
+   "condition": {
+    "option": "rights.no"
+   },
+   "card": {
+    "item": {
+     "questionId": "rights",
+     "title": "Есть ли у вас права на ваш дизайн?",
+     "stages": [
+      1
+     ],
+     "articles": [
+      "design-rights",
+      "copyright-protection"
+     ],
+     "suppliers": false
+    },
+    "fallbackText": null,
+    "links": [
+     {
+      "title": "Как закрепить права на изделие за собой?",
+      "href": "/knowledge/design-rights?from=design"
+     },
+     {
+      "title": "Что в ювелирном дизайне охраняется авторским правом?",
+      "href": "/knowledge/copyright-protection?from=design"
+     },
+     {
+      "href": "/design/stages/1#stage-content",
+      "title": "Права на дизайн"
+     }
+    ]
+   }
+  },
+  {
+   "condition": {
+    "option": "rights.unknown"
+   },
+   "card": {
+    "item": {
+     "questionId": "rights",
+     "title": "Есть ли у вас права на ваш дизайн?",
+     "stages": [
+      1
+     ],
+     "articles": [
+      "design-rights",
+      "copyright-protection"
+     ],
+     "suppliers": false
+    },
+    "fallbackText": null,
+    "links": [
+     {
+      "title": "Как закрепить права на изделие за собой?",
+      "href": "/knowledge/design-rights?from=design"
+     },
+     {
+      "title": "Что в ювелирном дизайне охраняется авторским правом?",
+      "href": "/knowledge/copyright-protection?from=design"
+     },
+     {
+      "href": "/design/stages/1#stage-content",
+      "title": "Права на дизайн"
+     }
+    ]
+   }
+  },
+  {
+   "condition": {
+    "option": "patent.registered"
+   },
+   "card": {
+    "item": {
+     "questionId": "patent",
+     "title": "Регистрировали ли Вы патент на изделие?",
+     "stages": [
+      2
+     ],
+     "articles": [
+      "patent-publication",
+      "industrial-design"
+     ],
+     "suppliers": false
+    },
+    "fallbackText": null,
+    "links": [
+     {
+      "title": "Как оформить патент и опубликовать дизайн украшения?",
+      "href": "/knowledge/patent-publication?from=design"
+     },
+     {
+      "title": "Что можно защитить промышленным образцом в ювелирном бизнесе?",
+      "href": "/knowledge/industrial-design?from=design"
+     },
+     {
+      "href": "/design/stages/2#stage-content",
+      "title": "Патент и публикация"
+     }
+    ]
+   }
+  },
+  {
+   "condition": {
+    "option": "patent.learn"
+   },
+   "card": {
+    "item": {
+     "questionId": "patent",
+     "title": "Регистрировали ли Вы патент на изделие?",
+     "stages": [
+      2
+     ],
+     "articles": [
+      "patent-publication",
+      "industrial-design"
+     ],
+     "suppliers": false
+    },
+    "fallbackText": null,
+    "links": [
+     {
+      "title": "Как оформить патент и опубликовать дизайн украшения?",
+      "href": "/knowledge/patent-publication?from=design"
+     },
+     {
+      "title": "Что можно защитить промышленным образцом в ювелирном бизнесе?",
+      "href": "/knowledge/industrial-design?from=design"
+     },
+     {
+      "href": "/design/stages/2#stage-content",
+      "title": "Патент и публикация"
+     }
+    ]
+   }
+  },
+  {
+   "condition": {
+    "option": "patent.unneeded"
+   },
+   "card": {
+    "item": {
+     "questionId": "patent",
+     "title": "Регистрировали ли Вы патент на изделие?",
+     "stages": [
+      2
+     ],
+     "articles": [
+      "patent-publication",
+      "industrial-design"
+     ],
+     "suppliers": false
+    },
+    "fallbackText": null,
+    "links": [
+     {
+      "title": "Как оформить патент и опубликовать дизайн украшения?",
+      "href": "/knowledge/patent-publication?from=design"
+     },
+     {
+      "title": "Что можно защитить промышленным образцом в ювелирном бизнесе?",
+      "href": "/knowledge/industrial-design?from=design"
+     },
+     {
+      "href": "/design/stages/2#stage-content",
+      "title": "Патент и публикация"
+     }
+    ]
+   }
+  },
+  {
+   "condition": {
+    "option": "sales.online"
+   },
+   "card": {
+    "item": {
+     "questionId": "sales",
+     "title": "Хотите ли вы продавать свое изделие?",
+     "stages": [
+      3,
+      10
+     ],
+     "articles": [
+      "online-sales"
+     ],
+     "suppliers": false
+    },
+    "fallbackText": null,
+    "links": [
+     {
+      "title": "Как продавать украшения через интернет",
+      "href": "/knowledge/online-sales?from=design"
+     },
+     {
+      "href": "/design/stages/3#stage-content",
+      "title": "Готовность бизнеса"
+     },
+     {
+      "href": "/design/stages/10#stage-content",
+      "title": "Подготовка к продаже"
+     }
+    ]
+   }
+  },
+  {
+   "condition": {
+    "option": "sales.shop"
+   },
+   "card": {
+    "item": {
+     "questionId": "sales",
+     "title": "Хотите ли вы продавать свое изделие?",
+     "stages": [
+      3,
+      10
+     ],
+     "articles": [
+      "jewelry-store"
+     ],
+     "suppliers": false
+    },
+    "fallbackText": null,
+    "links": [
+     {
+      "title": "Как открыть ювелирный магазин",
+      "href": "/knowledge/jewelry-store?from=design"
+     },
+     {
+      "href": "/design/stages/3#stage-content",
+      "title": "Готовность бизнеса"
+     },
+     {
+      "href": "/design/stages/10#stage-content",
+      "title": "Подготовка к продаже"
+     }
+    ]
+   }
+  },
+  {
+   "condition": {
+    "option": "sales.none"
+   },
+   "card": {
+    "item": {
+     "questionId": "sales",
+     "title": "Хотите ли вы продавать свое изделие?",
+     "stages": [],
+     "articles": [],
+     "suppliers": false
+    },
+    "fallbackText": "Не интересует продажа",
+    "links": []
+   }
+  },
+  {
+   "condition": {
+    "all": [
+     {
+      "option": "suppliers.yes"
+     },
+     {
+      "option": "materials.precious"
+     }
+    ]
+   },
+   "card": {
+    "item": {
+     "questionId": "suppliers",
+     "title": "Есть ли у Вас поставщики материалов?",
+     "stages": [
+      4
+     ],
+     "articles": [
+      "supply-documents",
+      "jewelry-purchase"
+     ],
+     "suppliers": false
+    },
+    "fallbackText": null,
+    "links": [
+     {
+      "title": "Документы для договора поставки",
+      "href": "/knowledge/supply-documents?from=design"
+     },
+     {
+      "title": "Купля-продажа ювелирных товаров",
+      "href": "/knowledge/jewelry-purchase?from=design"
+     },
+     {
+      "href": "/design/stages/4#stage-content",
+      "title": "Материалы и обязательные требования"
+     }
+    ]
+   }
+  },
+  {
+   "condition": {
+    "all": [
+     {
+      "option": "suppliers.yes"
+     },
+     {
+      "option": "materials.jewelry"
+     }
+    ]
+   },
+   "card": {
+    "item": {
+     "questionId": "suppliers",
+     "title": "Есть ли у Вас поставщики материалов?",
+     "stages": [
+      4
+     ],
+     "articles": [
+      "supply-documents",
+      "jewelry-purchase"
+     ],
+     "suppliers": false
+    },
+    "fallbackText": null,
+    "links": [
+     {
+      "title": "Документы для договора поставки",
+      "href": "/knowledge/supply-documents?from=design"
+     },
+     {
+      "title": "Купля-продажа ювелирных товаров",
+      "href": "/knowledge/jewelry-purchase?from=design"
+     },
+     {
+      "href": "/design/stages/4#stage-content",
+      "title": "Материалы и обязательные требования"
+     }
+    ]
+   }
+  },
+  {
+   "condition": {
+    "all": [
+     {
+      "option": "suppliers.yes"
+     },
+     {
+      "option": "materials.unknown"
+     }
+    ]
+   },
+   "card": {
+    "item": {
+     "questionId": "suppliers",
+     "title": "Есть ли у Вас поставщики материалов?",
+     "stages": [
+      4
+     ],
+     "articles": [
+      "supply-documents",
+      "jewelry-purchase"
+     ],
+     "suppliers": false
+    },
+    "fallbackText": null,
+    "links": [
+     {
+      "title": "Документы для договора поставки",
+      "href": "/knowledge/supply-documents?from=design"
+     },
+     {
+      "title": "Купля-продажа ювелирных товаров",
+      "href": "/knowledge/jewelry-purchase?from=design"
+     },
+     {
+      "href": "/design/stages/4#stage-content",
+      "title": "Материалы и обязательные требования"
+     }
+    ]
+   }
+  },
+  {
+   "condition": {
+    "all": [
+     {
+      "option": "suppliers.no"
+     },
+     {
+      "option": "materials.precious"
+     }
+    ]
+   },
+   "card": {
+    "item": {
+     "questionId": "suppliers",
+     "title": "Есть ли у Вас поставщики материалов?",
+     "stages": [
+      4
+     ],
+     "articles": [
+      "supply-documents",
+      "jewelry-purchase"
+     ],
+     "suppliers": true
+    },
+    "fallbackText": null,
+    "links": [
+     {
+      "title": "Документы для договора поставки",
+      "href": "/knowledge/supply-documents?from=design"
+     },
+     {
+      "title": "Купля-продажа ювелирных товаров",
+      "href": "/knowledge/jewelry-purchase?from=design"
+     },
+     {
+      "href": "/design/stages/4#stage-content",
+      "title": "Материалы и обязательные требования"
+     },
+     {
+      "href": "/suppliers",
+      "title": "Каталог поставщиков"
+     }
+    ]
+   }
+  },
+  {
+   "condition": {
+    "all": [
+     {
+      "option": "suppliers.no"
+     },
+     {
+      "option": "materials.jewelry"
+     }
+    ]
+   },
+   "card": {
+    "item": {
+     "questionId": "suppliers",
+     "title": "Есть ли у Вас поставщики материалов?",
+     "stages": [
+      4
+     ],
+     "articles": [
+      "supply-documents",
+      "jewelry-purchase"
+     ],
+     "suppliers": false
+    },
+    "fallbackText": null,
+    "links": [
+     {
+      "title": "Документы для договора поставки",
+      "href": "/knowledge/supply-documents?from=design"
+     },
+     {
+      "title": "Купля-продажа ювелирных товаров",
+      "href": "/knowledge/jewelry-purchase?from=design"
+     },
+     {
+      "href": "/design/stages/4#stage-content",
+      "title": "Материалы и обязательные требования"
+     }
+    ]
+   }
+  },
+  {
+   "condition": {
+    "all": [
+     {
+      "option": "suppliers.no"
+     },
+     {
+      "option": "materials.unknown"
+     }
+    ]
+   },
+   "card": {
+    "item": {
+     "questionId": "suppliers",
+     "title": "Есть ли у Вас поставщики материалов?",
+     "stages": [
+      4
+     ],
+     "articles": [
+      "supply-documents",
+      "jewelry-purchase"
+     ],
+     "suppliers": false
+    },
+    "fallbackText": null,
+    "links": [
+     {
+      "title": "Документы для договора поставки",
+      "href": "/knowledge/supply-documents?from=design"
+     },
+     {
+      "title": "Купля-продажа ювелирных товаров",
+      "href": "/knowledge/jewelry-purchase?from=design"
+     },
+     {
+      "href": "/design/stages/4#stage-content",
+      "title": "Материалы и обязательные требования"
+     }
+    ]
+   }
+  },
+  {
+   "condition": {
+    "option": "materials.precious"
+   },
+   "card": {
+    "item": {
+     "questionId": "materials",
+     "title": "Какие материалы используете в изделиях?",
+     "stages": [
+      4
+     ],
+     "articles": [
+      "jewelry-materials",
+      "precious-metals",
+      "precious-stones"
+     ],
+     "suppliers": false
+    },
+    "fallbackText": null,
+    "links": [
+     {
+      "title": "Материалы и обязательные требования к украшению",
+      "href": "/knowledge/jewelry-materials?from=design"
+     },
+     {
+      "title": "Требования для работы с драгоценными металлами",
+      "href": "/knowledge/precious-metals?from=design"
+     },
+     {
+      "title": "Работа с драгоценными камнями",
+      "href": "/knowledge/precious-stones?from=design"
+     },
+     {
+      "href": "/design/stages/4#stage-content",
+      "title": "Материалы и обязательные требования"
+     }
+    ]
+   }
+  },
+  {
+   "condition": {
+    "option": "materials.jewelry"
+   },
+   "card": {
+    "item": {
+     "questionId": "materials",
+     "title": "Какие материалы используете в изделиях?",
+     "stages": [
+      4
+     ],
+     "articles": [
+      "jewelry-materials"
+     ],
+     "suppliers": false
+    },
+    "fallbackText": null,
+    "links": [
+     {
+      "title": "Материалы и обязательные требования к украшению",
+      "href": "/knowledge/jewelry-materials?from=design"
+     },
+     {
+      "href": "/design/stages/4#stage-content",
+      "title": "Материалы и обязательные требования"
+     }
+    ]
+   }
+  },
+  {
+   "condition": {
+    "option": "materials.unknown"
+   },
+   "card": {
+    "item": {
+     "questionId": "materials",
+     "title": "Какие материалы используете в изделиях?",
+     "stages": [
+      4
+     ],
+     "articles": [
+      "jewelry-materials"
+     ],
+     "suppliers": false
+    },
+    "fallbackText": null,
+    "links": [
+     {
+      "title": "Материалы и обязательные требования к украшению",
+      "href": "/knowledge/jewelry-materials?from=design"
+     },
+     {
+      "href": "/design/stages/4#stage-content",
+      "title": "Материалы и обязательные требования"
+     }
+    ]
+   }
+  }
+ ],
+ "stages": [
+  {
+   "id": 1,
+   "title": "Права на дизайн",
+   "action": "Сохранить доказательства авторства готового дизайна",
+   "paragraphs": [
+    "Вы уже создали дизайн самостоятельно. Сохраните исходные эскизы и файлы, промежуточные версии и материалы, по которым виден процесс работы. Запишите имя автора, название дизайна и дату создания. Это поможет подтвердить, какой результат вы создали и когда. Авторское право на охраняемое произведение возникает без обязательной регистрации; загрузка материалов на сайт только сохраняет ваш пакет доказательств",
+    "Если изделие будет продавать ваша организация, отдельно оформите основание, по которому организация использует ваш дизайн. Само создание компании не передает ей права автора. На этом этапе исходный дизайн сохраняется за вами; условия его использования фабрикой согласуются на этапе договора"
+   ],
+   "goal": "сохранить доказательства авторства готового самостоятельного дизайна.",
+   "tasks": [
+    "Сохранены исходные эскизы, изображения, чертежи, модель и другие исходные файлы.",
+    "Сохранены промежуточные версии или материалы, по которым виден процесс создания дизайна.",
+    "Записаны имя автора, название дизайна и дата создания.",
+    "Сохранены сведения о передаче файлов и лицах, которые получали доступ к дизайну.",
+    "Если продавцом будет организация, оформлено основание использования дизайна организацией.",
+    "Исходные материалы хранятся в месте, откуда их можно получить при споре или проверке."
+   ],
+   "criteria": [
+    "Исходные материалы собраны.",
+    "Сведения об авторе и создании сохранены."
+   ],
+   "variants": [
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/design-rights?from=design&stage=1",
+       "label": "Как закрепить права на изделие за собой?"
+      },
+      {
+       "href": "/knowledge/copyright-protection?from=design&stage=1",
+       "label": "Что в ювелирном дизайне охраняется авторским правом?"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/design-rights?from=design&stage=1",
+       "label": "Как закрепить права на изделие за собой?"
+      },
+      {
+       "href": "/knowledge/copyright-protection?from=design&stage=1",
+       "label": "Что в ювелирном дизайне охраняется авторским правом?"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/design-rights?from=design&stage=1",
+       "label": "Как закрепить права на изделие за собой?"
+      },
+      {
+       "href": "/knowledge/copyright-protection?from=design&stage=1",
+       "label": "Что в ювелирном дизайне охраняется авторским правом?"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/design-rights?from=design&stage=1",
+       "label": "Как закрепить права на изделие за собой?"
+      },
+      {
+       "href": "/knowledge/copyright-protection?from=design&stage=1",
+       "label": "Что в ювелирном дизайне охраняется авторским правом?"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/design-rights?from=design&stage=1",
+       "label": "Как закрепить права на изделие за собой?"
+      },
+      {
+       "href": "/knowledge/copyright-protection?from=design&stage=1",
+       "label": "Что в ювелирном дизайне охраняется авторским правом?"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/design-rights?from=design&stage=1",
+       "label": "Как закрепить права на изделие за собой?"
+      },
+      {
+       "href": "/knowledge/copyright-protection?from=design&stage=1",
+       "label": "Что в ювелирном дизайне охраняется авторским правом?"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/design-rights?from=design&stage=1",
+       "label": "Как закрепить права на изделие за собой?"
+      },
+      {
+       "href": "/knowledge/copyright-protection?from=design&stage=1",
+       "label": "Что в ювелирном дизайне охраняется авторским правом?"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/design-rights?from=design&stage=1",
+       "label": "Как закрепить права на изделие за собой?"
+      },
+      {
+       "href": "/knowledge/copyright-protection?from=design&stage=1",
+       "label": "Что в ювелирном дизайне охраняется авторским правом?"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/design-rights?from=design&stage=1",
+       "label": "Как закрепить права на изделие за собой?"
+      },
+      {
+       "href": "/knowledge/copyright-protection?from=design&stage=1",
+       "label": "Что в ювелирном дизайне охраняется авторским правом?"
+      }
+     ],
+     "downloads": []
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Патент и публикация",
+   "action": "Определить способ защиты до передачи дизайна фабрике",
+   "paragraphs": [
+    "Решите, будете ли вы дополнительно защищать внешний вид украшения патентом на промышленный образец. Такой патент и авторское право — разные способы охраны. Для патента требуется оценить условия охраны и подать заявку; выдача патента является отдельным результатом. До публичного показа или передачи подробных изображений определите порядок раскрытия дизайна и конфиденциальности",
+    "Сохраните сведения о публикациях и передаче файлов, если они были. Публичное раскрытие может влиять на патентоспособность, поэтому оцените его обстоятельства до вывода о возможности получить патент. Если патентная защита нужна, пройдите поиск и подготовку заявки через официальный сервис или специалиста. Если вы продолжаете без патента, сохраняйте доказательства авторства и договорные условия использования дизайна"
+   ],
+   "goal": "определить способ защиты и порядок раскрытия дизайна до передачи фабрике.",
+   "tasks": [
+    "Принято и записано решение: проверять возможность патента на промышленный образец или продолжать без патента.",
+    "Собраны сведения о прежних публикациях, показах и передачах изображений дизайна.",
+    "Определено, какие материалы можно показывать до оформления конфиденциальности.",
+    "Если нужна патентная защита, запланированы проверка условий охраны, поиск и подготовка заявки.",
+    "Если работа продолжается без патента, сохранены доказательства авторства и запланированы договорные ограничения использования дизайна.",
+    "Решение о защите не отмечено как патент, если заявка не подана или патент не получен."
+   ],
+   "criteria": [
+    "Решение о способе защиты сохранено.",
+    "Порядок передачи и публикации дизайна определен."
+   ],
+   "variants": [
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/patent-publication?from=design&stage=2",
+       "label": "Как оформить патент и опубликовать дизайн украшения?"
+      },
+      {
+       "href": "/knowledge/industrial-design?from=design&stage=2",
+       "label": "Что можно защитить промышленным образцом в ювелирном бизнесе?"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/patent-publication?from=design&stage=2",
+       "label": "Как оформить патент и опубликовать дизайн украшения?"
+      },
+      {
+       "href": "/knowledge/industrial-design?from=design&stage=2",
+       "label": "Что можно защитить промышленным образцом в ювелирном бизнесе?"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/patent-publication?from=design&stage=2",
+       "label": "Как оформить патент и опубликовать дизайн украшения?"
+      },
+      {
+       "href": "/knowledge/industrial-design?from=design&stage=2",
+       "label": "Что можно защитить промышленным образцом в ювелирном бизнесе?"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/patent-publication?from=design&stage=2",
+       "label": "Как оформить патент и опубликовать дизайн украшения?"
+      },
+      {
+       "href": "/knowledge/industrial-design?from=design&stage=2",
+       "label": "Что можно защитить промышленным образцом в ювелирном бизнесе?"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/patent-publication?from=design&stage=2",
+       "label": "Как оформить патент и опубликовать дизайн украшения?"
+      },
+      {
+       "href": "/knowledge/industrial-design?from=design&stage=2",
+       "label": "Что можно защитить промышленным образцом в ювелирном бизнесе?"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/patent-publication?from=design&stage=2",
+       "label": "Как оформить патент и опубликовать дизайн украшения?"
+      },
+      {
+       "href": "/knowledge/industrial-design?from=design&stage=2",
+       "label": "Что можно защитить промышленным образцом в ювелирном бизнесе?"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/patent-publication?from=design&stage=2",
+       "label": "Как оформить патент и опубликовать дизайн украшения?"
+      },
+      {
+       "href": "/knowledge/industrial-design?from=design&stage=2",
+       "label": "Что можно защитить промышленным образцом в ювелирном бизнесе?"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/patent-publication?from=design&stage=2",
+       "label": "Как оформить патент и опубликовать дизайн украшения?"
+      },
+      {
+       "href": "/knowledge/industrial-design?from=design&stage=2",
+       "label": "Что можно защитить промышленным образцом в ювелирном бизнесе?"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/patent-publication?from=design&stage=2",
+       "label": "Как оформить патент и опубликовать дизайн украшения?"
+      },
+      {
+       "href": "/knowledge/industrial-design?from=design&stage=2",
+       "label": "Что можно защитить промышленным образцом в ювелирном бизнесе?"
+      }
+     ],
+     "downloads": []
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Готовность бизнеса",
+   "action": "Подготовить бизнес к заказу изготовления и продаже",
+   "paragraphs": [
+    "Определите, кто заключит договор с фабрикой и кто будет продавать украшение. Подготовьте реквизиты заказчика и продавца. Если бизнес еще не оформлен, выберите подходящую форму и пройдите регистрацию; если ИП или организация уже зарегистрированы, проверьте сведения и условия работы. Эти данные понадобятся в договоре, документах на изделия и информации для покупателя",
+    "Проверьте налоговую модель и специальные обязанности по вашему товару. Не выбирайте самозанятость только потому, что дизайн создали самостоятельно: допустимость НПД зависит от деятельности и вида продукции. Для драгоценных материалов отдельно проверьте специальный учет, обязанности по ГИИС ДМДК и применимые обязанности в сфере ПОД/ФТ. Требования по материалам подробно раскрыты в следующем этапе"
+   ],
+   "goal": "определить заказчика изготовления, продавца и необходимые действия бизнеса.",
+   "tasks": [
+    "Определено лицо, которое заключит договор с изготовителем.",
+    "Определено лицо, которое будет продавать украшение.",
+    "Выбрана и при необходимости оформлена форма работы.",
+    "Подготовлены реквизиты заказчика и продавца.",
+    "Проверены сведения о регистрации, полномочия и виды деятельности.",
+    "Проверены налоговая модель и обязанности, связанные с выбранным товаром.",
+    "Для драгоценных материалов отдельно проверены специальный учет, ГИИС ДМДК и другие применимые обязанности."
+   ],
+   "criteria": [
+    "Заказчик и продавец определены.",
+    "Реквизиты сохранены, форма работы и применимые обязанности проверены."
+   ],
+   "variants": [
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/production-business?from=design&stage=3",
+       "label": "Как подготовить бизнес к производству и продаже украшения?"
+      },
+      {
+       "href": "/knowledge/business-registration?from=design&stage=3",
+       "label": "Как зарегистрировать ИП или ООО для ювелирного бизнеса"
+      },
+      {
+       "href": "/knowledge/after-registration?from=design&stage=3",
+       "label": "Как открыть ювелирный бизнес после регистрации ИП или ООО"
+      },
+      {
+       "href": "/business",
+       "label": "Открыть ювелирный бизнес"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/production-business?from=design&stage=3",
+       "label": "Как подготовить бизнес к производству и продаже украшения?"
+      },
+      {
+       "href": "/knowledge/business-registration?from=design&stage=3",
+       "label": "Как зарегистрировать ИП или ООО для ювелирного бизнеса"
+      },
+      {
+       "href": "/knowledge/after-registration?from=design&stage=3",
+       "label": "Как открыть ювелирный бизнес после регистрации ИП или ООО"
+      },
+      {
+       "href": "/business",
+       "label": "Открыть ювелирный бизнес"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/production-business?from=design&stage=3",
+       "label": "Как подготовить бизнес к производству и продаже украшения?"
+      },
+      {
+       "href": "/knowledge/business-registration?from=design&stage=3",
+       "label": "Как зарегистрировать ИП или ООО для ювелирного бизнеса"
+      },
+      {
+       "href": "/knowledge/after-registration?from=design&stage=3",
+       "label": "Как открыть ювелирный бизнес после регистрации ИП или ООО"
+      },
+      {
+       "href": "/business",
+       "label": "Открыть ювелирный бизнес"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/production-business?from=design&stage=3",
+       "label": "Как подготовить бизнес к производству и продаже украшения?"
+      },
+      {
+       "href": "/knowledge/business-registration?from=design&stage=3",
+       "label": "Как зарегистрировать ИП или ООО для ювелирного бизнеса"
+      },
+      {
+       "href": "/knowledge/after-registration?from=design&stage=3",
+       "label": "Как открыть ювелирный бизнес после регистрации ИП или ООО"
+      },
+      {
+       "href": "/business",
+       "label": "Открыть ювелирный бизнес"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/production-business?from=design&stage=3",
+       "label": "Как подготовить бизнес к производству и продаже украшения?"
+      },
+      {
+       "href": "/knowledge/business-registration?from=design&stage=3",
+       "label": "Как зарегистрировать ИП или ООО для ювелирного бизнеса"
+      },
+      {
+       "href": "/knowledge/after-registration?from=design&stage=3",
+       "label": "Как открыть ювелирный бизнес после регистрации ИП или ООО"
+      },
+      {
+       "href": "/business",
+       "label": "Открыть ювелирный бизнес"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/production-business?from=design&stage=3",
+       "label": "Как подготовить бизнес к производству и продаже украшения?"
+      },
+      {
+       "href": "/knowledge/business-registration?from=design&stage=3",
+       "label": "Как зарегистрировать ИП или ООО для ювелирного бизнеса"
+      },
+      {
+       "href": "/knowledge/after-registration?from=design&stage=3",
+       "label": "Как открыть ювелирный бизнес после регистрации ИП или ООО"
+      },
+      {
+       "href": "/business",
+       "label": "Открыть ювелирный бизнес"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/production-business?from=design&stage=3",
+       "label": "Как подготовить бизнес к производству и продаже украшения?"
+      },
+      {
+       "href": "/knowledge/business-registration?from=design&stage=3",
+       "label": "Как зарегистрировать ИП или ООО для ювелирного бизнеса"
+      },
+      {
+       "href": "/knowledge/after-registration?from=design&stage=3",
+       "label": "Как открыть ювелирный бизнес после регистрации ИП или ООО"
+      },
+      {
+       "href": "/business",
+       "label": "Открыть ювелирный бизнес"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/production-business?from=design&stage=3",
+       "label": "Как подготовить бизнес к производству и продаже украшения?"
+      },
+      {
+       "href": "/knowledge/business-registration?from=design&stage=3",
+       "label": "Как зарегистрировать ИП или ООО для ювелирного бизнеса"
+      },
+      {
+       "href": "/knowledge/after-registration?from=design&stage=3",
+       "label": "Как открыть ювелирный бизнес после регистрации ИП или ООО"
+      },
+      {
+       "href": "/business",
+       "label": "Открыть ювелирный бизнес"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/production-business?from=design&stage=3",
+       "label": "Как подготовить бизнес к производству и продаже украшения?"
+      },
+      {
+       "href": "/knowledge/business-registration?from=design&stage=3",
+       "label": "Как зарегистрировать ИП или ООО для ювелирного бизнеса"
+      },
+      {
+       "href": "/knowledge/after-registration?from=design&stage=3",
+       "label": "Как открыть ювелирный бизнес после регистрации ИП или ООО"
+      },
+      {
+       "href": "/business",
+       "label": "Открыть ювелирный бизнес"
+      }
+     ],
+     "downloads": []
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Материалы и обязательные требования",
+   "action": "Зафиксировать состав изделия и обязательные требования",
+   "paragraphs": [
+    "Перенесите из готового дизайна состав и характеристики будущего украшения: металл и пробу, вставки и их происхождение, покрытие, размеры и плановую массу. Отдельно зафиксируйте параметры, которые фабрика должна уточнить при подготовке производства. Готовый внешний вид служит основой задания; технические уточнения сохраняются с привязкой к нему",
+    "украшение"
+   ],
+   "goal": "зафиксировать состав изделия и определить требования по составу и стране производства.",
+   "tasks": [
+    "Записаны металл, проба при наличии, вставки, их происхождение, покрытие, размеры и плановая масса.",
+    "Отмечены параметры, которые должен уточнить изготовитель перед производством.",
+    "Определены применимые правила учета, идентификации, клеймения, маркировки, бирки и документов.",
+    "Распределена ответственность изготовителя, заказчика и продавца за обязательные действия и документы.",
+    "Для недрагоценного изделия исключены требования, которые к нему не относятся.",
+    "При иностранном производстве определены импортер и вопросы ввоза, происхождения и оформления.",
+    "После выбора страны производства перечень требований пересмотрен."
+   ],
+   "criteria": [
+    "Состав изделия сохранен.",
+    "Применимые требования и ответственные определены."
+   ],
+   "variants": [
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/jewelry-materials?from=design&stage=4",
+       "label": "Материалы и обязательные требования к украшению"
+      },
+      {
+       "href": "/knowledge/precious-metals?from=design&stage=4",
+       "label": "Требования для работы с драгоценными металлами"
+      },
+      {
+       "href": "/knowledge/precious-stones?from=design&stage=4",
+       "label": "Работа с драгоценными камнями"
+      },
+      {
+       "href": "/knowledge/special-account?from=design&stage=4",
+       "label": "Что такое специальный учет и ГИИС ДМДК"
+      },
+      {
+       "href": "/suppliers?category=metals",
+       "label": "Поставщики драгоценных металлов"
+      },
+      {
+       "href": "/suppliers?category=stones",
+       "label": "Поставщики драгоценных камней"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/jewelry-materials?from=design&stage=4",
+       "label": "Материалы и обязательные требования к украшению"
+      },
+      {
+       "href": "/knowledge/precious-metals?from=design&stage=4",
+       "label": "Требования для работы с драгоценными металлами"
+      },
+      {
+       "href": "/knowledge/precious-stones?from=design&stage=4",
+       "label": "Работа с драгоценными камнями"
+      },
+      {
+       "href": "/knowledge/special-account?from=design&stage=4",
+       "label": "Что такое специальный учет и ГИИС ДМДК"
+      },
+      {
+       "href": "/suppliers?category=metals",
+       "label": "Поставщики драгоценных металлов"
+      },
+      {
+       "href": "/suppliers?category=stones",
+       "label": "Поставщики драгоценных камней"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/jewelry-materials?from=design&stage=4",
+       "label": "Материалы и обязательные требования к украшению"
+      },
+      {
+       "href": "/knowledge/precious-metals?from=design&stage=4",
+       "label": "Требования для работы с драгоценными металлами"
+      },
+      {
+       "href": "/knowledge/precious-stones?from=design&stage=4",
+       "label": "Работа с драгоценными камнями"
+      },
+      {
+       "href": "/knowledge/special-account?from=design&stage=4",
+       "label": "Что такое специальный учет и ГИИС ДМДК"
+      },
+      {
+       "href": "/suppliers?category=metals",
+       "label": "Поставщики драгоценных металлов"
+      },
+      {
+       "href": "/suppliers?category=stones",
+       "label": "Поставщики драгоценных камней"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/suppliers?category=metals",
+       "label": "Поставщики драгоценных металлов"
+      },
+      {
+       "href": "/suppliers?category=stones",
+       "label": "Поставщики драгоценных камней"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/suppliers?category=metals",
+       "label": "Поставщики драгоценных металлов"
+      },
+      {
+       "href": "/suppliers?category=stones",
+       "label": "Поставщики драгоценных камней"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/suppliers?category=metals",
+       "label": "Поставщики драгоценных металлов"
+      },
+      {
+       "href": "/suppliers?category=stones",
+       "label": "Поставщики драгоценных камней"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/jewelry-materials?from=design&stage=4",
+       "label": "Материалы и обязательные требования к украшению"
+      },
+      {
+       "href": "/knowledge/precious-metals?from=design&stage=4",
+       "label": "Требования для работы с драгоценными металлами"
+      },
+      {
+       "href": "/knowledge/precious-stones?from=design&stage=4",
+       "label": "Работа с драгоценными камнями"
+      },
+      {
+       "href": "/knowledge/special-account?from=design&stage=4",
+       "label": "Что такое специальный учет и ГИИС ДМДК"
+      },
+      {
+       "href": "/suppliers?category=metals",
+       "label": "Поставщики драгоценных металлов"
+      },
+      {
+       "href": "/suppliers?category=stones",
+       "label": "Поставщики драгоценных камней"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/jewelry-materials?from=design&stage=4",
+       "label": "Материалы и обязательные требования к украшению"
+      },
+      {
+       "href": "/knowledge/precious-metals?from=design&stage=4",
+       "label": "Требования для работы с драгоценными металлами"
+      },
+      {
+       "href": "/knowledge/precious-stones?from=design&stage=4",
+       "label": "Работа с драгоценными камнями"
+      },
+      {
+       "href": "/knowledge/special-account?from=design&stage=4",
+       "label": "Что такое специальный учет и ГИИС ДМДК"
+      },
+      {
+       "href": "/suppliers?category=metals",
+       "label": "Поставщики драгоценных металлов"
+      },
+      {
+       "href": "/suppliers?category=stones",
+       "label": "Поставщики драгоценных камней"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/jewelry-materials?from=design&stage=4",
+       "label": "Материалы и обязательные требования к украшению"
+      },
+      {
+       "href": "/knowledge/precious-metals?from=design&stage=4",
+       "label": "Требования для работы с драгоценными металлами"
+      },
+      {
+       "href": "/knowledge/precious-stones?from=design&stage=4",
+       "label": "Работа с драгоценными камнями"
+      },
+      {
+       "href": "/knowledge/special-account?from=design&stage=4",
+       "label": "Что такое специальный учет и ГИИС ДМДК"
+      },
+      {
+       "href": "/suppliers?category=metals",
+       "label": "Поставщики драгоценных металлов"
+      },
+      {
+       "href": "/suppliers?category=stones",
+       "label": "Поставщики драгоценных камней"
+      }
+     ],
+     "downloads": []
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Задание изготовителю",
+   "action": "Подготовить производственное задание по готовому дизайну",
+   "paragraphs": [
+    "Соберите пакет для точного воспроизведения вашего дизайна. Приложите имеющиеся изображения, эскизы, чертежи или модель. Опишите габариты, конструкцию, состав, вставки, покрытие, требования к качеству, допустимые отклонения, количество и сроки. Отдельно укажите обязательные характеристики и параметры, по которым фабрика может предложить технологическое уточнение. Это превращает готовый дизайн в проверяемое задание на изготовление",
+    "Если для производства требуется техническая 3D-модель, чертеж или оснастка, включите их подготовку в объем работ фабрики. Они создаются по вашему готовому дизайну. Согласуйте стоимость, передачу файлов и права на результаты этой технической работы. Изменения внешнего вида требуют вашего явного согласования и сохраняются в новой версии задания",
+    "Для первого сравнения предложений подготовьте запрос с общими параметрами, материалами, объемом и сроками. Подробные изображения и исходники передавайте выбранному изготовителю после оформления конфиденциальности. Полный пакет собирается отдельно; сайт сам не отправляет его фабрикам"
+   ],
+   "goal": "перевести готовый дизайн в проверяемое производственное задание.",
+   "tasks": [
+    "К заданию приложены изображения, эскизы, чертежи или модель в имеющемся формате.",
+    "Описаны габариты, конструкция, материалы, вставки и покрытие.",
+    "Записаны требования к качеству и допустимые отклонения.",
+    "Указаны количество, желаемые сроки и состав ожидаемых документов.",
+    "Отделены обязательные характеристики от параметров, которые фабрика может технологически уточнить.",
+    "Если нужны 3D-модель, чертеж или оснастка, определены объем работы, стоимость, передача файлов и права на результат.",
+    "Установлено, что изменения внешнего вида согласуются отдельно и сохраняются в новой версии задания.",
+    "Подготовлен первичный запрос стоимости без лишней передачи подробных исходников."
+   ],
+   "criteria": [
+    "Производственное задание сохранено.",
+    "Первичный запрос стоимости подготовлен."
+   ],
+   "variants": [
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=5",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=5",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=5",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=5",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=5",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=5",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=5",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=5",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=5",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      }
+     ],
+     "downloads": []
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "Выбор и проверка изготовителя",
+   "action": "Выбрать фабрику и проверить условия изготовления",
+   "paragraphs": [
+    "Найдите изготовителей, которые работают с вашими материалами и объемом заказа. Сравните услуги, минимальный тираж, сроки, стоимость технической подготовки, образца, оснастки, изготовления, документов и доставки. Запросите предложения по одной и той же версии задания, чтобы сравнение было понятным",
+    "Проверьте реквизиты, полномочия подписанта, производственные возможности и применимые сведения об учете и документах. Уточните, кто закупает материалы и какие документы передает фабрика с изделием. Если выбираете иностранного изготовителя, вернитесь к проверке импорта в шаге 4 и учтите оформление в полной стоимости заказа",
+    "Перед передачей полного пакета дизайна оформите конфиденциальность и условия допустимого использования файлов. После этого можно уточнить расчет и технологические условия. Добавление фабрики в проект сохраняет ваш выбор; договор и передача дизайна оформляются отдельно"
+   ],
+   "goal": "выбрать фабрику и проверить ее возможности, документы и условия.",
+   "tasks": [
+    "Выбраны изготовители, работающие с нужными материалами и объемом заказа.",
+    "Предложения запрошены по одной версии задания.",
+    "Сравнены минимальный тираж, сроки, образец, оснастка, стоимость, документы и доставка.",
+    "Проверены реквизиты изготовителя и полномочия подписанта.",
+    "Проверены производственные возможности и работа с нужными материалами.",
+    "Уточнено, кто закупает материалы и какие документы фабрика передает с изделием.",
+    "Для иностранного изготовителя учтены импорт и стоимость оформления.",
+    "До передачи полного пакета дизайна оформлена конфиденциальность."
+   ],
+   "criteria": [
+    "Изготовитель записан и выбран.",
+    "Условия, документы и конфиденциальность проверены."
+   ],
+   "variants": [
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=6",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/knowledge/foreign-manufacturer?from=design&stage=6",
+       "label": "Что учесть при заказе украшений у иностранного производителя"
+      },
+      {
+       "href": "/design/stages/4#stage-content",
+       "label": "Проверить требования по материалам и стране изготовления"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=6",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/knowledge/foreign-manufacturer?from=design&stage=6",
+       "label": "Что учесть при заказе украшений у иностранного производителя"
+      },
+      {
+       "href": "/design/stages/4#stage-content",
+       "label": "Проверить требования по материалам и стране изготовления"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=6",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/knowledge/foreign-manufacturer?from=design&stage=6",
+       "label": "Что учесть при заказе украшений у иностранного производителя"
+      },
+      {
+       "href": "/design/stages/4#stage-content",
+       "label": "Проверить требования по материалам и стране изготовления"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=6",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/knowledge/foreign-manufacturer?from=design&stage=6",
+       "label": "Что учесть при заказе украшений у иностранного производителя"
+      },
+      {
+       "href": "/design/stages/4#stage-content",
+       "label": "Проверить требования по материалам и стране изготовления"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=6",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/knowledge/foreign-manufacturer?from=design&stage=6",
+       "label": "Что учесть при заказе украшений у иностранного производителя"
+      },
+      {
+       "href": "/design/stages/4#stage-content",
+       "label": "Проверить требования по материалам и стране изготовления"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=6",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/knowledge/foreign-manufacturer?from=design&stage=6",
+       "label": "Что учесть при заказе украшений у иностранного производителя"
+      },
+      {
+       "href": "/design/stages/4#stage-content",
+       "label": "Проверить требования по материалам и стране изготовления"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=6",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/knowledge/foreign-manufacturer?from=design&stage=6",
+       "label": "Что учесть при заказе украшений у иностранного производителя"
+      },
+      {
+       "href": "/design/stages/4#stage-content",
+       "label": "Проверить требования по материалам и стране изготовления"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=6",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/knowledge/foreign-manufacturer?from=design&stage=6",
+       "label": "Что учесть при заказе украшений у иностранного производителя"
+      },
+      {
+       "href": "/design/stages/4#stage-content",
+       "label": "Проверить требования по материалам и стране изготовления"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=6",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/knowledge/foreign-manufacturer?from=design&stage=6",
+       "label": "Что учесть при заказе украшений у иностранного производителя"
+      },
+      {
+       "href": "/design/stages/4#stage-content",
+       "label": "Проверить требования по материалам и стране изготовления"
+      }
+     ],
+     "downloads": []
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "title": "Договор и материалы",
+   "action": "Согласовать договор изготовления и передачу материалов",
+   "paragraphs": [
+    "Закрепите в договоре выбранного изготовителя, версию задания, цену, сроки, порядок оплаты, изготовление и утверждение образца, запуск партии, приемку и исправление брака. Приложите спецификацию и перечень документов, которые фабрика должна передать. Конфиденциальность, согласованная до передачи файлов, включается в договорный пакет",
+    "Укажите разрешенный объем использования вашего дизайна для заказа, порядок технологических изменений и согласования субподрядчиков. Согласуйте запрет неразрешенного тиражирования и публикации. Отдельно определите условия по технической модели, оснастке и возврату файлов. Передача дизайна для производства сама по себе не должна подменять договоренность о правах",
+    "Определите источник каждого материала. Если материалы закупает фабрика, запишите состав, качество, происхождение и порядок замен. Если вы передаете собственные материалы, оформите отдельный акт с характеристиками, количеством или массой, правилами учета расхода, технологических потерь и возврата остатков. При смешанной схеме эти обязанности разделяются по владельцу материала"
+   ],
+   "goal": "закрепить условия изготовления, использования дизайна и передачи материалов.",
+   "tasks": [
+    "В договоре указаны изготовитель и точная версия производственного задания.",
+    "Согласованы цена, сроки, порядок оплаты и ответственность сторон.",
+    "Описаны изготовление и утверждение образца, запуск партии, приемка и исправление брака.",
+    "К договору приложены спецификация и перечень документов, передаваемых фабрикой.",
+    "Определен разрешенный объем использования дизайна для заказа.",
+    "Согласованы порядок технологических изменений и привлечение субподрядчиков.",
+    "Закреплены запрет неразрешенного тиражирования и условия публикации дизайна.",
+    "Определены права на техническую модель и оснастку, а также порядок возврата файлов.",
+    "Для материалов фабрики согласованы состав, качество, происхождение и порядок замен.",
+    "Для материалов заказчика подготовлен акт передачи, правила учета расхода, потерь и возврата остатков.",
+    "Договор и применимые приложения подписаны уполномоченными лицами, экземпляры сохранены."
+   ],
+   "criteria": [
+    "Условия заказа и использования дизайна закреплены.",
+    "Передача материалов оформлена, если она требуется."
+   ],
+   "variants": [
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=7",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      },
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=7",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/suppliers?category=metals",
+       "label": "Поставщики драгоценных металлов"
+      },
+      {
+       "href": "/suppliers?category=stones",
+       "label": "Поставщики драгоценных камней"
+      }
+     ],
+     "downloads": [
+      {
+       "title": "Договор подряда на изготовление ювелирных изделий",
+       "description": "Шаблон договора с условиями изготовления, передачи материалов и приёмки ювелирных изделий",
+       "href": "/documents/contracts/jewelry-manufacturing-contract.docx"
+      }
+     ]
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=7",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      },
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=7",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/suppliers?category=metals",
+       "label": "Поставщики драгоценных металлов"
+      },
+      {
+       "href": "/suppliers?category=stones",
+       "label": "Поставщики драгоценных камней"
+      }
+     ],
+     "downloads": [
+      {
+       "title": "Договор подряда на изготовление ювелирных изделий",
+       "description": "Шаблон договора с условиями изготовления, передачи материалов и приёмки ювелирных изделий",
+       "href": "/documents/contracts/jewelry-manufacturing-contract.docx"
+      }
+     ]
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=7",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      },
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=7",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/suppliers?category=metals",
+       "label": "Поставщики драгоценных металлов"
+      },
+      {
+       "href": "/suppliers?category=stones",
+       "label": "Поставщики драгоценных камней"
+      }
+     ],
+     "downloads": [
+      {
+       "title": "Договор подряда на изготовление ювелирных изделий",
+       "description": "Шаблон договора с условиями изготовления, передачи материалов и приёмки ювелирных изделий",
+       "href": "/documents/contracts/jewelry-manufacturing-contract.docx"
+      }
+     ]
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/suppliers?category=metals",
+       "label": "Поставщики драгоценных металлов"
+      },
+      {
+       "href": "/suppliers?category=stones",
+       "label": "Поставщики драгоценных камней"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/suppliers?category=metals",
+       "label": "Поставщики драгоценных металлов"
+      },
+      {
+       "href": "/suppliers?category=stones",
+       "label": "Поставщики драгоценных камней"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/suppliers?category=metals",
+       "label": "Поставщики драгоценных металлов"
+      },
+      {
+       "href": "/suppliers?category=stones",
+       "label": "Поставщики драгоценных камней"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=7",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      },
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=7",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/suppliers?category=metals",
+       "label": "Поставщики драгоценных металлов"
+      },
+      {
+       "href": "/suppliers?category=stones",
+       "label": "Поставщики драгоценных камней"
+      }
+     ],
+     "downloads": [
+      {
+       "title": "Договор подряда на изготовление ювелирных изделий",
+       "description": "Шаблон договора с условиями изготовления, передачи материалов и приёмки ювелирных изделий",
+       "href": "/documents/contracts/jewelry-manufacturing-contract.docx"
+      }
+     ]
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=7",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      },
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=7",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/suppliers?category=metals",
+       "label": "Поставщики драгоценных металлов"
+      },
+      {
+       "href": "/suppliers?category=stones",
+       "label": "Поставщики драгоценных камней"
+      }
+     ],
+     "downloads": [
+      {
+       "title": "Договор подряда на изготовление ювелирных изделий",
+       "description": "Шаблон договора с условиями изготовления, передачи материалов и приёмки ювелирных изделий",
+       "href": "/documents/contracts/jewelry-manufacturing-contract.docx"
+      }
+     ]
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=7",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      },
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=7",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/suppliers?category=metals",
+       "label": "Поставщики драгоценных металлов"
+      },
+      {
+       "href": "/suppliers?category=stones",
+       "label": "Поставщики драгоценных камней"
+      }
+     ],
+     "downloads": [
+      {
+       "title": "Договор подряда на изготовление ювелирных изделий",
+       "description": "Шаблон договора с условиями изготовления, передачи материалов и приёмки ювелирных изделий",
+       "href": "/documents/contracts/jewelry-manufacturing-contract.docx"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "title": "Образец",
+   "action": "Заказать образец и утвердить его перед выпуском партии",
+   "paragraphs": [
+    "Фабрика изготавливает образец по согласованному заданию. Проверьте его внешний вид, размеры, массу, вставки, сборку, покрытие, замки и удобство ношения. Сравните образец с вашим дизайном и согласованными техническими параметрами. Сохраните фотографии и результаты проверки",
+    "Если обнаружены отклонения, оформите перечень замечаний и передайте его фабрике. После доработки повторите затронутые проверки. Когда образец соответствует согласованным требованиям, зафиксируйте утверждение, дату, версию задания и допустимые отклонения. Этот образец становится эталоном для последующей партии"
+   ],
+   "goal": "изготовить, проверить и утвердить образец как эталон для партии.",
+   "tasks": [
+    "Образец изготовлен по согласованной версии задания.",
+    "Проверены внешний вид, размеры, масса, вставки, сборка, покрытие и замки.",
+    "Проверены удобство ношения и соответствие готовому дизайну.",
+    "Образец сравнен с техническими параметрами и допустимыми отклонениями.",
+    "Сохранены фотографии и результаты проверки.",
+    "При наличии отклонений оформлен перечень замечаний и проведена повторная проверка после доработки.",
+    "Зафиксированы утверждение, дата, версия задания и допустимые отклонения."
+   ],
+   "criteria": [
+    "Проверка образца сохранена.",
+    "Образец утвержден как эталон."
+   ],
+   "variants": [
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=8",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      },
+      {
+       "href": "/knowledge/jewelry-materials?from=design&stage=8",
+       "label": "Материалы и обязательные требования к украшению"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=8",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      },
+      {
+       "href": "/knowledge/jewelry-materials?from=design&stage=8",
+       "label": "Материалы и обязательные требования к украшению"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=8",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      },
+      {
+       "href": "/knowledge/jewelry-materials?from=design&stage=8",
+       "label": "Материалы и обязательные требования к украшению"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=8",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      },
+      {
+       "href": "/knowledge/jewelry-materials?from=design&stage=8",
+       "label": "Материалы и обязательные требования к украшению"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=8",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      },
+      {
+       "href": "/knowledge/jewelry-materials?from=design&stage=8",
+       "label": "Материалы и обязательные требования к украшению"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-brief?from=design&stage=8",
+       "label": "Как подготовить задание изготовителю ювелирного изделия"
+      },
+      {
+       "href": "/knowledge/jewelry-materials?from=design&stage=8",
+       "label": "Материалы и обязательные требования к украшению"
+      }
+     ],
+     "downloads": []
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "title": "Партия и приемка",
+   "action": "Запустить изготовление и принять готовые изделия",
+   "paragraphs": [
+    "До запуска партии сверьте договор, окончательную версию задания, утвержденный образец, количество, сроки, оплату и ожидаемые документы. Зафиксируйте согласованный запуск. Во время производства сохраняйте согласованные изменения и сроки передачи, чтобы они были связаны с конкретным заказом",
+    "При получении проверьте фактическое количество, комплектность, качество и документы. Сравните изделия с эталоном и условиями задания. Разделите принятые изделия и изделия с замечаниями; оформите расхождения и согласуйте исправление, замену или другой предусмотренный договором способ урегулирования. До подготовки к продаже подтвердите необходимые сведения об обороте, происхождении и идентификации изделий, если они применимы",
+    "Если заказан один экземпляр, согласуйте его изготовление вместе с образцом на предыдущем этапе. После утверждения этого же экземпляра проведите окончательную приемку и сохраните документы; отдельная серийная партия не требуется. Количество один сохраняет требования к качеству, правам, документам и условиям продажи"
+   ],
+   "goal": "зафиксировать запуск изготовления и принять пригодные изделия с документами.",
+   "tasks": [
+    "До запуска сверены договор, окончательная версия задания и утвержденный образец.",
+    "Сверены количество, сроки, оплата и перечень ожидаемых документов.",
+    "Запуск производства записан с датой и ответственными лицами.",
+    "Изменения в ходе производства сохранены и привязаны к заказу.",
+    "При получении проверены количество, комплектность и качество.",
+    "Изделия сравнены с утвержденным образцом и заданием.",
+    "Принятые изделия отделены от изделий с замечаниями.",
+    "Расхождения оформлены, согласованы исправление, замена или другой предусмотренный договором способ.",
+    "Проверены документы на происхождение, оборот и идентификацию, если они применимы.",
+    "Для заказа одного экземпляра отдельно сохранена окончательная приемка этого изделия."
+   ],
+   "criteria": [
+    "Изготовление завершено, пригодные изделия приняты.",
+    "Документы на принятые изделия проверены и сохранены."
+   ],
+   "variants": [
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=9",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/knowledge/supply-documents?from=design&stage=9",
+       "label": "Документы для договора поставки"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=9",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/knowledge/supply-documents?from=design&stage=9",
+       "label": "Документы для договора поставки"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=9",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/knowledge/supply-documents?from=design&stage=9",
+       "label": "Документы для договора поставки"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=9",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/knowledge/supply-documents?from=design&stage=9",
+       "label": "Документы для договора поставки"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=9",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/knowledge/supply-documents?from=design&stage=9",
+       "label": "Документы для договора поставки"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/manufacturer-check?from=design&stage=9",
+       "label": "Что проверить перед работой с ювелирным производителем"
+      },
+      {
+       "href": "/knowledge/supply-documents?from=design&stage=9",
+       "label": "Документы для договора поставки"
+      }
+     ],
+     "downloads": []
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "title": "Подготовка к продаже",
+   "action": "Подготовить принятые изделия к продаже",
+   "paragraphs": [
+    "Соберите карточку товара по фактически изготовленному и принятому изделию: название, изготовитель, материалы, проба при наличии, масса, размеры, вставки, покрытие и уход. Сделайте фотографии, подготовьте упаковку, цену и сведения продавца. Для регулируемых изделий сверьте учет, идентификаторы, необходимые клейма и маркировку, бирку и документы. Характеристики в карточке, документах и бирке должны совпадать",
+    "Подготовьте условия по каналу продажи. Для своего сайта и социальных сетей — сведения продавца, оплату, доставку, отказ от товара, обращения по недостаткам, кассовое оформление и обработку данных покупателей. Для маркетплейса — требования выбранной площадки и передачу необходимых сведений. Для магазина — ценники, ярлыки, документы покупки и порядок обращений. Для опта — договор и передаточные документы между бизнесами. Правила возвратов проверяются для конкретного способа продажи"
+   ],
+   "goal": "подготовить фактически изготовленное и принятое изделие к выбранному способу продажи.",
+   "tasks": [
+    "Карточка товара составлена по фактическому изделию, а не только по исходному дизайну.",
+    "Указаны название, изготовитель, материалы, проба при наличии, масса, размеры, вставки, покрытие и уход.",
+    "Подготовлены фотографии, упаковка и сведения продавца.",
+    "Цена рассчитана с учетом затрат и выбранного способа продажи.",
+    "Для регулируемых изделий проверены учет, идентификаторы, клейма, маркировка, бирка и документы.",
+    "Характеристики совпадают в карточке товара, документах, маркировке и на бирке.",
+    "Для сайта или социальных сетей подготовлены оплата, доставка, кассовое оформление, обращения покупателей и обработка данных.",
+    "Для маркетплейса проверены требования выбранной площадки и состав передаваемых сведений.",
+    "Для магазина подготовлены ценники, ярлыки, документы покупки и порядок обращений.",
+    "Для опта подготовлены договор и передаточные документы.",
+    "Проведена итоговая проверка готовности, незакрытые вопросы устранены или записаны."
+   ],
+   "criteria": [
+    "Карточка товара, цена, фотографии и упаковка подготовлены.",
+    "Документы и условия выбранного канала продажи подготовлены."
+   ],
+   "variants": [
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/precious-metals?from=design&stage=10",
+       "label": "Требования для работы с драгоценными металлами"
+      },
+      {
+       "href": "/knowledge/online-sales?from=design&stage=10",
+       "label": "Как продавать украшения через интернет"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/precious-metals?from=design&stage=10",
+       "label": "Требования для работы с драгоценными металлами"
+      },
+      {
+       "href": "/knowledge/jewelry-store?from=design&stage=10",
+       "label": "Как открыть ювелирный магазин"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.precious"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/precious-metals?from=design&stage=10",
+       "label": "Требования для работы с драгоценными металлами"
+      },
+      {
+       "href": "/knowledge/online-sales?from=design&stage=10",
+       "label": "Как продавать украшения через интернет"
+      },
+      {
+       "href": "/knowledge/jewelry-store?from=design&stage=10",
+       "label": "Как открыть ювелирный магазин"
+      },
+      {
+       "href": "/knowledge/marketplace-sales?from=design&stage=10",
+       "label": "Продажа украшений на маркетплейсах"
+      },
+      {
+       "href": "/knowledge/wholesale-jewelry?from=design&stage=10",
+       "label": "Оптовая торговля ювелирными изделиями"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.jewelry"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.online"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/precious-metals?from=design&stage=10",
+       "label": "Требования для работы с драгоценными металлами"
+      },
+      {
+       "href": "/knowledge/online-sales?from=design&stage=10",
+       "label": "Как продавать украшения через интернет"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.shop"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/precious-metals?from=design&stage=10",
+       "label": "Требования для работы с драгоценными металлами"
+      },
+      {
+       "href": "/knowledge/jewelry-store?from=design&stage=10",
+       "label": "Как открыть ювелирный магазин"
+      }
+     ],
+     "downloads": []
+    },
+    {
+     "condition": {
+      "all": [
+       {
+        "option": "materials.unknown"
+       },
+       {
+        "option": "sales.none"
+       }
+      ]
+     },
+     "links": [
+      {
+       "href": "/knowledge/precious-metals?from=design&stage=10",
+       "label": "Требования для работы с драгоценными металлами"
+      },
+      {
+       "href": "/knowledge/online-sales?from=design&stage=10",
+       "label": "Как продавать украшения через интернет"
+      },
+      {
+       "href": "/knowledge/jewelry-store?from=design&stage=10",
+       "label": "Как открыть ювелирный магазин"
+      },
+      {
+       "href": "/knowledge/marketplace-sales?from=design&stage=10",
+       "label": "Продажа украшений на маркетплейсах"
+      },
+      {
+       "href": "/knowledge/wholesale-jewelry?from=design&stage=10",
+       "label": "Оптовая торговля ювелирными изделиями"
+      }
+     ],
+     "downloads": []
+    }
+   ]
+  }
+ ]
+}

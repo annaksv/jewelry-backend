@@ -24,7 +24,11 @@ class RouteSerializer(serializers.Serializer):
     scenario_title = serializers.CharField()
     schema_version = serializers.IntegerField()
     is_saved = serializers.BooleanField(help_text="true, если маршрут привязан к аккаунту")
-    steps = RouteStepSerializer(many=True)
+    kind = serializers.CharField(
+        help_text="steps: список шагов в поле steps (бизнес); design или similar_products: структура в поле result")
+    steps = RouteStepSerializer(many=True, help_text="Для kind=steps; для остальных видов пустой список")
+    result = serializers.JSONField(
+        allow_null=True, help_text="Для design и similar_products: структура результата; для steps: null")
 
 
 class ClaimResultSerializer(serializers.Serializer):
@@ -39,11 +43,17 @@ class SavedRouteSerializer(serializers.ModelSerializer):
     scenario = serializers.CharField(source="scenario.slug")
     scenario_title = serializers.CharField(source="scenario.title")
     steps_count = serializers.SerializerMethodField()
+    kind = serializers.SerializerMethodField()
 
     class Meta:
         model = Route
-        fields = ["id", "run_id", "scenario", "scenario_title", "steps_count", "created_at", "updated_at"]
+        fields = ["id", "run_id", "scenario", "scenario_title", "steps_count", "kind", "created_at", "updated_at"]
 
     @extend_schema_field(serializers.IntegerField())
     def get_steps_count(self, obj):
+        """Для design и similar_products шагов нет: 0."""
         return len(obj.snapshot.get("steps", []))
+
+    @extend_schema_field(serializers.CharField())
+    def get_kind(self, obj):
+        return obj.snapshot.get("kind", "steps")

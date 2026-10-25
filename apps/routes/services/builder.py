@@ -7,6 +7,7 @@ from apps.surveys.services.conditions import evaluate
 from apps.surveys.services.engine import build_context
 
 from apps.routes.models import Route, RouteRule
+from apps.routes.services.results import RESULT_BUILDERS, RESULT_SCHEMA_VERSION
 
 SCHEMA_VERSION = 1
 
@@ -65,14 +66,19 @@ def get_or_build_route(run):
         return route
 
     ctx = build_context(run)
-    snapshot = {"steps": [serialize_step(rule, ctx) for rule in select_rules(run, ctx)]}
+    result_builder = RESULT_BUILDERS.get(run.scenario.slug)
+    if result_builder is not None:
+        snapshot, version = result_builder(ctx), RESULT_SCHEMA_VERSION
+    else:
+        snapshot = {"steps": [serialize_step(rule, ctx) for rule in select_rules(run, ctx)]}
+        version = SCHEMA_VERSION
     if route is None:
         return Route.objects.create(
             run=run, user=run.user, scenario=run.scenario, snapshot=snapshot,
-            schema_version=SCHEMA_VERSION, source_updated_at=run.updated_at,
+            schema_version=version, source_updated_at=run.updated_at,
         )
     route.snapshot = snapshot
-    route.schema_version = SCHEMA_VERSION
+    route.schema_version = version
     route.source_updated_at = run.updated_at
     route.save()
     return route
@@ -80,6 +86,7 @@ def get_or_build_route(run):
 
 def route_payload(route):
     """Что отдаём frontend."""
+    kind = route.snapshot.get("kind", "steps")
     return {
         "id": route.id,
         "run_id": route.run_id,
@@ -87,5 +94,7 @@ def route_payload(route):
         "scenario_title": route.scenario.title,
         "schema_version": route.schema_version,
         "is_saved": route.user_id is not None,
+        "kind": kind,
         "steps": route.snapshot.get("steps", []),
+        "result": route.snapshot if kind != "steps" else None,
     }

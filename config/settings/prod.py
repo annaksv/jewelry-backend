@@ -6,7 +6,6 @@ DEBUG = False
 CSRF_TRUSTED_ORIGINS = env.list("CSRF_TRUSTED_ORIGINS", default=[])  # noqa: F405
 
 # Пока сайт работает по IP без HTTPS, эти параметры выключены.
-# Когда появится домен и HTTPS, поставим True.
 SECURE_SSL_REDIRECT = False
 SESSION_COOKIE_SECURE = False
 CSRF_COOKIE_SECURE = False
